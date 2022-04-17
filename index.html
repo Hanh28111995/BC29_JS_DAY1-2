@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 px-3">
+          <div class="form_item">
+            <div class="form_row">
+              <label class="form_label">Nhập số có 2 chữ số :</label>
+              <input class="form_input" id="number1" type="text" />
+            </div>
+            <button id="btn1" type="button" class="btn btn-success">
+              Kết quả
+            </button>
+            <div class="form_row">
+              <label class="form_label">Tổng các chữ số : </label>
+              <input class="form_input" id="kq1" type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 px-3">
+          <div class="form_item">
+            <div class="form_row">
+              <div style="display: block">
+                <label class="form_label">Chiều dài (mm):</label>
+                <input class="form_input" id="dai" type="text" /><br />
+              </div>
+              <div style="display: block">
+                <label class="form_label">Chiều rộng (mm):</label>
+                <input class="form_input" id="rong" type="text" />
+              </div>
+            </div>
+            <button id="btn2" type="button" class="btn btn-success">
+              Kết quả
+            </button>
+            <span> &nbsp;(Chu vi / Diện tích của Hình chữ nhật)</span>
+            <div class="form_row">
+              <input class="form_input" id="kq2" type="text" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-3">
+        <div class="col-6 px-3">
+          <div class="form_item">
+            <div class="form_row">
+              <label class="form_label1">USD :</label>
+              <input class="form_input" id="my" type="text" />
+            </div>
+            <button id="btn3" type="button" class="btn btn-success">
+              Kết quả
+            </button>
+            <p style="display: inline-block">
+              &nbsp; &nbsp;(Tỷ giá: 1 USD = 23.500 VND)
+            </p>
+            <div class="form_row">
+              <label class="form_label1">VND : </label>
+              <input class="form_input" id="viet" type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 px-3">
+          <div class="form_item">
+            <p style="margin-bottom: 0">Nhập 5 số :</p>
+            <div class="form_row">
+              <input class="form_input1" id="s1" type="text" />
+              <input class="form_input1" id="s2" type="text" />
+              <input class="form_input1" id="s3" type="text" />
+              <input class="form_input1" id="s4" type="text" />
+              <input class="form_input1" id="s5" type="text" />
+            </div>
+            <button id="btn4" type="button" class="btn btn-success">
+              Kết quả
+            </button>
+            <p style="display: inline-block">&nbsp; &nbsp;(Giá trị TB)</p>
+            <div class="form_row">
+              <input class="form_input" id="tb5s" type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 px-3">
+          <div class="form_item">
+            <div class="form_row">
+              <div style="display: block">
+                <label class="form_label">Số ngày làm:</label>
+                <input class="form_input" id="day_work" type="text" /><br />
+              </div>
+            </div>
+            <button id="btn5" type="button" class="btn btn-success">
+              Kết quả
+            </button>
+            <span> &nbsp;(Công 1 ngày: 100.000 VND)</span>
+            <div class="form_row">
+              <input class="form_input" id="luong" type="text" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="text">
+    <button type="button" class="btn">Basic</button>
+       -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
